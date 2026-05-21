@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Datasets
+CDD/
+LEVIR-CD/
+
+# Trained weights
+*.pth
+weights/
+param_runs/
+ablation_runs/
+
+# Prediction results
+train2_masks_levircd_test/
+train2_single_mask/
+
+# Training logs
+*.log
+
+# IDE
+.trae/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.synctex.gz
+*.pdf
+
+# OS
+Thumbs.db
+.DS_Store
